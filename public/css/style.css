@@ -153,4 +153,47 @@ body{
 /* map */
 
 /* searching */
-
+.filter{
+    display: flex;
+    flex-direction: row;
+    margin:1.5rem 5px 0 5px;
+}
+.filter-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    opacity: 0.8;
+}
+.filter-icon p{
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.filter-icon:hover{
+    opacity: 1;
+}
+.form-check.form-switch {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 0.05rem solid #dee2e6;
+    border-radius: 15px;
+    margin-left: 5px;
+    box-shadow: 10px 10px 10px #dee2e6 , inset 10px 10px 10px #dee2e6;
+    padding: 0 1rem 0 4rem;
+  }
+  
+  .form-check-input {
+    accent-color: #007bff;
+    font-size: 1.4rem;
+  }
+  
+  .form-check-label {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    padding: 12px 12px;
+    font-weight: 600;
+  }
